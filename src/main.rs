@@ -1,10 +1,11 @@
-mod lib;
+extern crate math_utils;
 
-use crate::lib::math::complex;
+
+use math_utils::mymath::complex;
 
 fn main() {
-    let tmp_1 = complex::Complex{real: 0.0, imag: 3.0};
-    let tmp_2 = complex::Complex{real: 1.0, imag: 10.0};
+    let tmp_1 = complex::Complex::new(0.0, 3.0);
+    let tmp_2 = complex::Complex::new(1.0, 10.0);
     let tmp_3 = tmp_1.add(&tmp_2);
     let abs = tmp_3.mul(&tmp_3.conjugate());
     println!("{} + {}i", tmp_1.real, tmp_1.imag);
