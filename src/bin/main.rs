@@ -1,8 +1,8 @@
-extern crate math_utils;
+extern crate mat_utils;
 
 
-use math_utils::utils::mymath::*;
-use math_utils::utils::matrix;
+use mat_utils::utils::mymath::*;
+use mat_utils::utils::matrix;
 
 fn main() {
     // utils::mymath
