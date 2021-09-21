@@ -3,6 +3,7 @@ extern crate mat_utils;
 
 use mat_utils::utils::mymath::*;
 use mat_utils::utils::matrix;
+use crate::mat_utils::utils::mymath::complex::Operators; // トレイトを使用する場合はトレイトのモジュールインポートも必要になる
 
 fn main() {
     // utils::mymath
